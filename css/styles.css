@@ -126,3 +126,29 @@ body {
   color: var(--btn-hover-cl);
   border: 1px solid var(--main-txt-cl);
 }
+/* Header */
+.header {
+}
+.header-container {
+  display: flex;
+  width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+  align-items: center;
+}
+.header-nav {
+  margin-left: auto;
+}
+.header-list {
+  display: flex;
+}
+.header-list-item {
+  margin-right: 77px;
+}
+.header-list-item:last-child {
+  margin-right: 0;
+}
+.header-link {
+  display: block;
+  padding: 64px 0;
+}
