@@ -1,0 +1,52 @@
+/*
+=================
+add fonts
+=================
+*/
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Regular.eot");
+  src: local("Gilroy Regular"), local("Gilroy-Regular"),
+    url("../fonts/Gilroy-RegularItalic.eot") format("embedded-opentype"),
+    url("../fonts/Gilroy-Regular.woff2") format("woff2"), url("../fonts/Gilroy-Regular.woff") format("woff"),
+    url("../fonts/Gilroy-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Semibold.eot");
+  src: local("Gilroy Semibold"), local("Gilroy-Semibold"),
+    url("../fonts/Gilroy-Semibold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Gilroy-Semibold.woff2") format("woff2"), url("../fonts/Gilroy-Semibold.woff") format("woff"),
+    url("../fonts/Gilroy-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.eot");
+  src: local("Roboto Regular"), local("Roboto-Regular"), url("../fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --main-font: "Gilroy", sans-serif;
+
+  --accent-cl: #df3d3a;
+  --btn-txt-cl: rgba(255, 255, 255, 0.9);
+  --btn-hover-cl: #b5302d;
+  --btn-hover-border: rgba(255, 255, 255, 0.8);
+
+  --main-txt-cl: rgba(255, 255, 255, 0.8);
+  --primary-txt-cl: #e7e7e7;
+  --secondary-txt-cl: rgba(255, 255, 255, 0.3);
+
+  --main-bg-cl: #191919;
+}
