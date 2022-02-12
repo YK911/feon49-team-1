@@ -63,6 +63,13 @@ body {
   background-color: var(--main-bg-cl);
 }
 
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
 .list {
   list-style: none;
   margin: 0;
@@ -74,6 +81,13 @@ body {
   color: currentColor;
 }
 
+.section {
+  padding-top: 85px;
+  padding-bottom: 85px;
+}
+.indent {
+  display: block;
+}
 .title {
   font-weight: 600;
   font-size: 54px;
@@ -151,4 +165,42 @@ body {
 .header-link {
   display: block;
   padding: 64px 0;
+}
+/*Hero*/
+.hero {
+  padding-top: 10px;
+}
+.hero-container {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+}
+.hero-wrapper {
+  width: 320px;
+  margin-bottom: 110px;
+}
+.hero-text {
+  margin-bottom: 36px;
+}
+.hero-text:last-child {
+  margin-bottom: 0;
+}
+.hero-lead {
+  margin-left: 104px;
+  width: 470px;
+}
+.hero-title {
+  font-weight: 600;
+  font-size: 74px;
+  line-height: 1;
+
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+
+  color: var(--primary-txt-cl);
+  margin-bottom: 60px;
+}
+.hero-img{
+  margin-left: auto;
 }
